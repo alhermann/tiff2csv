@@ -1,0 +1,10 @@
+README.md
+setup.py
+tiff2csv
+tiff2csv/TiffReader.py
+tiff2csv/__init__.py
+tiff2csv/__main__.py
+tiff2csv.egg-info/PKG-INFO
+tiff2csv.egg-info/SOURCES.txt
+tiff2csv.egg-info/dependency_links.txt
+tiff2csv.egg-info/top_level.txt

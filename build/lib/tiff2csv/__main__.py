@@ -1,0 +1,1 @@
+#!/usr/bin/env python3# -*- coding: utf-8 -*-"""Created on Thu May 28 2020Definition of the main entry point.@author: Alexander Hermann"""from .__init__ import main    if __name__ == "__main__":    main()

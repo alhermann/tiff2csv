@@ -1,0 +1,1 @@
+# tiff2csvThis is a simple python package for processing ```.tif``` image data and outputting ```.csv``` files.The intention is to operate on a sequence of ```.tif``` images and, based on a given discretization size, output a ```.csv``` file containing the voxel data. You can find the Github repository on https://github.com/alhermann/tiff2csv.git.

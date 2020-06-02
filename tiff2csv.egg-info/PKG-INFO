@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tiff2csv
+Version: 0.0.2
+Summary: A lightweight python package for processing .tif image data files.
+Home-page: https://github.com/alhermann/TIFF2Vox.git
+Author: Alexander Hermann
+Author-email: alexander.hermann@hzg.de
+License: UNKNOWN
+Description: # tiff2csv
+        
+        
+        This is a simple python package for processing ```.tif``` image data and outputting ```.csv``` files.
+        The intention is to operate on a sequence of ```.tif``` images and, based on a given discretization size, 
+        output a ```.csv``` file containing the voxel data. 
+        You can find the Github repository on https://github.com/alhermann/tiff2csv.git.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
