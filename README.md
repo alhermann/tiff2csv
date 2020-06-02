@@ -42,3 +42,5 @@ For an exemplary CT image resolution of 5mu the following command runs a max-poo
 ```
 python3 -m tiff2csv ../tiffs/ -r 5e-6 -d ../ -p True
 ```
+
+![VOX](./voxels.png "Voxelization in Paraview")
