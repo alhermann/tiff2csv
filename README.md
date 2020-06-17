@@ -21,26 +21,29 @@ which produces the following output:
 
 
 ```
-usage: __main__.py [-h] [-n imgNum] [-r resolution] [-d dFile] [-p pooling] sFile [sFile ...]
+usage: __main__.py [-h] [-n imgNum] [-r resolution] [-d dFile] [-p pooling]
+                   [-k poolingKernel]
+                   sFile [sFile ...]
 
 Script that reads a sequence of .tif files and outputs .csv file of voxel data
 to user specified directory
 
 positional arguments:
-  sFile          the source file of the .tif image sequence
+  sFile             the source file of the .tif image sequence
 
 optional arguments:
-  -h, --help     show this help message and exit
-  -n imgNum      number of .tif images
-  -r resolution  voxel resolution in the .tif images
-  -d dFile       the destination directory where the output should go to
-  -p pooling     optionally activate 2D pooling on the input images
+  -h, --help        show this help message and exit
+  -n imgNum         number of .tif images
+  -r resolution     voxel resolution in the .tif images
+  -d dFile          the destination directory where the output should go to
+  -p pooling        optionally activate 2D pooling on the input images
+  -k poolingKernel  optionally pass a kernel size for 2D pooling (default = 5)
 ```
 
 For an exemplary CT image resolution of 5mu the following command runs a max-pooling compression on the input image data files and outputs a ```voxelization.csv``` voxel data file to user specified (in this case parent) directory.
 
 ```
-python3 -m tiff2csv ../tiffs/ -r 5e-6 -d ../ -p True
+python3 -m tiff2csv ../tiffs/ -r 5e-6 -d ../ -p True -k 5
 ```
 
 ![VOX](./voxels.png "Voxelization in Paraview")
