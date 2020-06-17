@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: tiff2csv
-Version: 0.0.3
+Version: 0.0.4
 Summary: A lightweight python package for processing .tif image data files.
 Home-page: https://github.com/alhermann/TIFF2Vox.git
 Author: Alexander Hermann
@@ -50,6 +50,8 @@ Description: # tiff2csv
         ```
         python3 -m tiff2csv ../tiffs/ -r 5e-6 -d ../ -p True
         ```
+        
+        ![VOX](./voxels.png "Voxelization in Paraview")
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
